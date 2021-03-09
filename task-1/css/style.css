@@ -1,0 +1,107 @@
+/* reset */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  white-space: nowrap;
+}
+
+ul[class] {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+body {
+  background-color: #fff;
+}
+
+.content {
+  max-width: 630px;
+  width: 100%;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.country {
+  max-width: 300px;
+  width: 100%;
+  height: 200px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.country:hover {
+  transform: scale(1.02);
+}
+
+.ukraine {
+  border: 1px solid #000;
+  background-image: linear-gradient(blue 0% 50%, yellow 50% 100%);
+}
+
+.japan {
+  border: 2px solid #000;
+  background: radial-gradient(circle, #bc002d 58px, #fff 60px);
+}
+
+.island {
+  border: 1px solid #000;
+  background:
+    linear-gradient(blue, blue) 0 0 /80px 80px,
+    linear-gradient(blue, blue) 0 100% /80px 80px,
+    linear-gradient(blue, blue) 100% 0 /170px 80px,
+    linear-gradient(blue, blue) 100% 100%/170px 80px,
+    linear-gradient(red, red) 88px 0px/ 30px 100%,
+    linear-gradient(red, red) 0 86px/ 100% 25px;
+  background-repeat: no-repeat;
+
+}
+
+.czech {
+  border: 1px solid #000;
+  background-image: linear-gradient(35deg, #11457e 50%, transparent 50%), linear-gradient(-35deg, transparent 50%, #11457e 50%), linear-gradient(#fff 50%, #d7141a 50%);
+  background-size: 144px 100px, 144px 100px, 228px 200px;
+  background-position: 0px 0, 0 100px, 0 0;
+  background-repeat: no-repeat, no-repeat, repeat;
+}
